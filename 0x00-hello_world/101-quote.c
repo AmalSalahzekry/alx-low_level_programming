@@ -1,12 +1,11 @@
 #include <stdio.h>
-include <unistd.h>
+#include <unistd.h>
 
 /**
- *
- * main - Entry point
- *
- * Return always 1 (success)
- */
+* main - Entry point
+*
+* Return always 1 (success)
+*/
 
 int main(void)
 {
