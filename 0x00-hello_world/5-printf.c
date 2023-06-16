@@ -1,13 +1,11 @@
 #include <stdio.h>
 /**
- *
  * main - using priting
- *
- * Return 0 (success)
+ * Return: 0 (success)
  */
 
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art, \n");
+	Printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
