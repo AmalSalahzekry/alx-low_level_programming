@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - entry poin
+* main - entry point
 * Description: this program type sizes of data types
 * Return 0 (success)
 */
