@@ -1,19 +1,25 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- *
- * description: print size programming
- *
- * Return 0 (success)
- */
+* main - entry point
+*
+* description: print size programming
+*
+* Return 0 (success)
+*/
 
 int main(void)
 {
-	printf("Size of a char: %u byte(s)\n", sizeof(char));
-	printf("Size of an int: %u byte(s)\n", sizeof(int));
-	printf("Size of a long int: %u byte(s)\n", sizeof(long int));
-	printf("Size of a long long int: %u byte(s)\n", sizeof(long long int));
-	printf("Size of a float: %u byte(s)\n", sizeof(float));
+	char c;
+	int d;
+	long int ld;
+	long long int lld;
+	float f;
+
+	printf("Size of a char: %d byte(s)\n", sizeof(c));
+	printf("Size of an int: %d byte(s)\n", sizeof(d));
+	printf("Size of a long int: %d byte(s)\n", sizeof(ld));
+	printf("Size of a long long int: %d byte(s)\n", sizeof(lld));
+	printf("Size of a float: %d byte(s)\n", sizeof(f));
 	return (0);
 }
