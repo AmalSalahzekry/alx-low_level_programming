@@ -3,7 +3,7 @@
 /**
 * main - entry point
 *
-* description: print size programming
+* Description: print size programming by byts
 *
 * Return 0 (success)
 */
