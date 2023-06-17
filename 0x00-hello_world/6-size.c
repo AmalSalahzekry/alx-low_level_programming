@@ -1,15 +1,10 @@
 #include <stdio.h>
 
 /**
-* 
-* main - entry point
-*
+* main - entry poin
 * Description: this program type sizes of data types
-*
 * Return 0 (success)
-*
 */
-
 int main(void)
 {
 
