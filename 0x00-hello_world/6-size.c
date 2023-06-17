@@ -2,13 +2,10 @@
 
 /**
 * main - entry point
-*
-* Description: print size programming by byts
-*
 * Return 0 (success)
 */
 
-int main()
+int main(void)
 {
 
 	char c;
