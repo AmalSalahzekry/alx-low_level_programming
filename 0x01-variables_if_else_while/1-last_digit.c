@@ -5,7 +5,7 @@
 /*
  * main - entery point
  *
- * Description: print the last digit
+ * Description: print the last digit.
  *
  * Return: always (0) (success)
 */
