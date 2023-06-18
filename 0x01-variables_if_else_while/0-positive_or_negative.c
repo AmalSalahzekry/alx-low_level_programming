@@ -3,13 +3,11 @@
 #include <stdio.h>
 
 /**
-*
 * main - entry point
 *
 * Description: use if and else if to determine positive or negative or zero
 *
 * Return: Always (0) (successful)
-*
 */
 
 int main(void)
