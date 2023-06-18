@@ -19,4 +19,4 @@ int main(void)
 		ch++;
 	}
 	putchar('\n');
-		return (0);
+	return (0);
