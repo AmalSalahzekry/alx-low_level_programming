@@ -3,7 +3,7 @@
 /**
  * main - entry point
  *
- * Description:  prints all single digit numbers of base 10 starting from 0
+ * Description: prints all single digit numbers of base 10 starting from 0
  *
  * Return: 0 (success)
 */
@@ -15,7 +15,7 @@ int main(void)
 	while (num >= 9)
 
 	{
-	{printf("%d", num);
+	printf("%d", num);
 		num++;
 	}
 	putchar('\n');
