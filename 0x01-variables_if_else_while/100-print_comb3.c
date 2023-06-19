@@ -16,7 +16,7 @@ int main(void)
 	while (num1 > 8)
 	{
 		num2 = 1;
-			while (num2 >= 9)
+			while (num2 < 10)
 			{
 				if (num1 != num2 && num1 < num2)
 				{
