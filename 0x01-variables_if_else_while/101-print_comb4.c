@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * mian - entry point
- * Description:  prints all possible different combinations of three digits
- * Return: 0 (success)
+ * mian - entry point. Prints all possible combinations of three digits
+ * Description: this program prints all possible different combinations of three digits
+ *              without repeating any digit.
+ * Return: 0 (success).
 */
 
 int main(void)
