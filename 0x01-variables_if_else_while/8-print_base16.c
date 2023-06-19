@@ -16,17 +16,16 @@ int main(void)
 	for (num = 0; num < 16; num++)
 	{
 		if (num < 10)
-	{
 		ch = num + '0';
-	}
 
 	else
-	{
 		ch = num - 10 + 'a';
+	}
 		{
 			putchar(ch);
 		}
-	}
-	putchar('\n');
+		{
+			putchar('\n');
+		}
 		return (0);
 }
