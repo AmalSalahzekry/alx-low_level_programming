@@ -3,8 +3,6 @@
 /**
  * mian - entry point. Prints all possible combinations of three digits
  *
- * Description: this prints all possible different comb of three digits
- *
  * Return: 0 (success)
 */
 
