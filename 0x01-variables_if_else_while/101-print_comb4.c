@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * mian - entry point. Prints all possible combinations of three digits
+ * main - entry point. Prints all possible combinations of three digits
  *
  * Description: print all possible combinations.
  *
