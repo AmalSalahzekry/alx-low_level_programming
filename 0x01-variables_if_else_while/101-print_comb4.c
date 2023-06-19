@@ -2,9 +2,7 @@
 
 /**
  * mian - entry point
- *
  * Description: write all possible differant 3 digit
- *
  * Return: 0 (success)
 */
 
