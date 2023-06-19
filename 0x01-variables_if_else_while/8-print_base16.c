@@ -17,9 +17,9 @@ int main(void)
 		putchar(num);
 			num++;
 	}
-	int ch = 97;
+	int ch = 'a';
 
-	while (ch <= 102)
+	while (ch <= 'f')
 	{
 		putchar(ch);
 		ch++;
