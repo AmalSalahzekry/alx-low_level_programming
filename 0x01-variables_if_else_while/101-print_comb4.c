@@ -4,12 +4,12 @@
  * mian - entry point. Prints all possible combinations of three digits
  *
  * Description: this prints all possible different comb of three digits
- * without repeating any digit.
  *
  * Return: 0 (success)
 */
 
 int main(void)
+
 {
 	int num1, num2, num3;
 
