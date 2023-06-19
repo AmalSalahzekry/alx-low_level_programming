@@ -3,7 +3,7 @@
 /**
  * mian - entry point
  *
- * Description: Write a program that prints all possible comb of three digits.
+ * Description: write all possible differant 3 digit
  *
  * Return: 0 (success)
 */
