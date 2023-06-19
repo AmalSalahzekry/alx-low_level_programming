@@ -2,7 +2,7 @@
 
 /**
  * mian - entry point
- * Description: write all possible differant 3 digit
+ * Description:  prints all possible different combinations of three digits
  * Return: 0 (success)
 */
 
