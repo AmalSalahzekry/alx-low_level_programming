@@ -10,19 +10,22 @@
 
 int main(void)
 {
-	int num = 48;
+	int num;
+	char ch;
 
-	while (num <= 57)
+	for (num = 0; num < 16; num++)
 	{
-		putchar(num);
-			num++;
+		if (num < 10)
+	{
+		ch = num + '0';
 	}
-	int ch = 'a';
 
-	while (ch <= 'f')
+	else
 	{
-		putchar(ch);
-		ch++;
+		ch = num - 10 + 'a';
+		{
+			putchar(ch);
+		}
 	}
 	putchar('\n');
 		return (0);
