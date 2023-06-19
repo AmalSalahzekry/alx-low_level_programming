@@ -20,6 +20,6 @@ int main(void)
 				num += 39;
 			num++;
 		}
-	Putchar('\n');
+	putchar('\n');
 		return (0);
 }
