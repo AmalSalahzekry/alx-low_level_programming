@@ -21,7 +21,7 @@ int main(void)
 				if (num1 != num2 && num1 < num2)
 				{
 					putchar(num1 + '0');
-					putchar(num2 + '0');
+					putchar(num2 + '1');
 
 					if (num1 + num2 != 17)
 					{
