@@ -2,9 +2,11 @@
 
 /**
  * mian - entry point. Prints all possible combinations of three digits
- * Description: this program prints all possible different combinations of three digits
- *              without repeating any digit.
- * Return: 0 (success).
+ *
+ * Description: this prints all possible different comb of three digits
+ * without repeating any digit.
+ *
+ * Return: 0 (success)
 */
 
 int main(void)
