@@ -22,7 +22,7 @@ int main(void)
 	while (ch <= 102)
 	{
 		putchar(ch);
-		ch++
+		ch++;
 	}
 	putchar('\n');
 		return (0);
