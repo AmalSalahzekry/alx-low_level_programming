@@ -10,22 +10,16 @@
 
 int main(void)
 {
-	int num;
-	char ch;
+	int num = 48
 
-	for (num = 0; num < 16; num++)
-	{
-		if (num < 10)
-		ch = num + '0';
+		while (num < 103)
+		{
+			putchar(num);
 
-	else
-		ch = num - 10 + 'a';
-	}
-		{
-			putchar(ch);
+			if (num == 57)
+				num += 39;
+			num++;
 		}
-		{
-			putchar('\n');
-		}
+	Putchar('\n');
 		return (0);
 }
