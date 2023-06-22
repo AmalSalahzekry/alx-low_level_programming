@@ -14,9 +14,9 @@ void print_square(int size)
 	else
 		int squ1, squ2;
 
-	for (squ1 = 1; squ1 <= size; squ1++)
+	for (squ1 = 1; squ1 < size; squ1++)
 	{
-		for (squ2 = 1; squ2 <= size; squ2++)
+		for (squ2 = 1; squ2 < size; squ2++)
 			_putchar('#');
 	}
 	_putchar('\n');
