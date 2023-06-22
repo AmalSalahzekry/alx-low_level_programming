@@ -2,26 +2,17 @@
 
 /**
  * print_square - prints a square, followed by a new line.
- * @size: the suze of square
+ * @size: the size of square
  */
 
 void print_square(int size)
 {
-	if (size = 0)
-	{
-		_putchar('\n');
-	}
-	else
-	{
-		int squ1, squ2;
+	int sq1, sq2;
 
-	for (squ1 = 1; squ1 < size; squ1++)
+	for (sq1 = 1; sq1 < size; sq1++)
 	{
-		for (squ2 = 1; squ2 < size; squ2++)
-		{
+		for (sq2 = 1; sq2 < size; sq2++)
 			_putchar('#');
-		}
 		_putchar('\n');
-	}
 	}
 }
