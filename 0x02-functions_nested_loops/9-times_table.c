@@ -10,8 +10,6 @@ void times_table(void)
 {
 	int num1, num2, num3;
 
-	num3 = num1 * num2;
-
 	for (num1 = 0; num1 < 10; num1++)
 	{
 		_putchar('0');
@@ -19,6 +17,8 @@ void times_table(void)
 		{
 			_putchar(',');
 			_putchar(' ');
+
+			num3 = num1 * num2;
 			if (num3 < 10)
 			{
 				_putchar(' ');
