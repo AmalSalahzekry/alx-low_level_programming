@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -34,6 +33,13 @@ int main(void)
 			print("%i", num);
 		}
 	}
-	printf("\n");
+	if (num != 100)
+	{
+		printf(" ");
+	}
+	else
+	{
+		printf("\n");
+	}
 	return (0);
 }
