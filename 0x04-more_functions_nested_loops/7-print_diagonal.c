@@ -19,9 +19,13 @@ void print_diagonal(int n)
 		for (num1 = 0; num1 < n; num1++)
 		{
 			for (num2 = 0; num2 < n; num2++)
-				_putchar(' ');
-		}
-			_putchar(92);
+			{
+				if (num2 == num1)
+					_putchar('\\');
+				else if (num2 < num1)
+					_putchar(' ');
+			}
 			_putchar('\n');
+		}
 	}
 }
