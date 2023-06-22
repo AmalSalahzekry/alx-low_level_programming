@@ -25,15 +25,17 @@ int main(void)
 		{
 			printf("FizzBuzz");
 		}
-		else
+		else if (num == 1)
 		{
 			printf("%d", num);
 		}
-	}
-	while (num < 100)
-	{
-		printf(" ");
+		else
+		{
+			printf(" %d", num);
+		}
 	}
 	printf("\n");
+
 	return (0);
 }
+		
