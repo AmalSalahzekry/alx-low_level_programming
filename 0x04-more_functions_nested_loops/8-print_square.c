@@ -12,6 +12,7 @@ void print_square(int size)
 		_putchar('\n');
 	}
 	else
+	{
 		int squ1, squ2;
 
 	for (squ1 = 1; squ1 < size; squ1++)
@@ -20,4 +21,5 @@ void print_square(int size)
 			_putchar('#');
 	}
 	_putchar('\n');
+	}
 }
