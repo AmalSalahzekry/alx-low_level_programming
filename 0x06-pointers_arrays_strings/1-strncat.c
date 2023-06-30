@@ -10,8 +10,8 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int i = '0';
-	int c;
+	char i = '0';
+	char c;
 
 	while (dest[i] != '\0')
 	{
