@@ -19,7 +19,7 @@ char *leet(char *c)
 		{
 			if (*c == letr[m])
 			{
-				*c = '0' + num[m];
+				*c = num[m];
 			}
 		}
 		c++;
