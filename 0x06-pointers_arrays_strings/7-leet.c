@@ -17,7 +17,7 @@ char *leet(char *c)
 	{
 		for (m = 0; m < sizeof(letr) / sizeof(char); m++)
 		{
-			if (*c == letr[m] || *c == letr[m] + 32)
+			if (*c == letr[m])
 			{
 				*c = '0' + num[m];
 			}
