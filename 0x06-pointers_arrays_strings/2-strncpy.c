@@ -1,7 +1,7 @@
 #includ "main.h"
 
 /**
- * *_strncpy -  copies a string.
+ * _strncpy -  copies a string.
  * @dest: 1st input
  * @src: 2nd input
  * @n: number of bytes
