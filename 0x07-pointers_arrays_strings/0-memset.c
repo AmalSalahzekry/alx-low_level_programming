@@ -3,7 +3,7 @@
 /**
  * *_memset - function that fills memory with a constant byte
  * @s: Pointer
- * @b: the constant 
+ * @b: the constant
  * @n:number of byts
  * Return:  a pointer to the memory area s
  */
