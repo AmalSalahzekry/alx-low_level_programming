@@ -33,5 +33,5 @@ int the_prime_number(int n, int num2)
 	{
 		return (0);
 	}
-	return (the_prime_number(n, n - 1));
+	return (the_prime_number(n, num2 - 1));
 }
