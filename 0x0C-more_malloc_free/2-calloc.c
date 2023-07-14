@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * *memset - entry point
+ * *_memset - entry point
  * @a: pointer
  * @j: char to copy
  * @n: bytes to use
  * Return: pointer
  */
 
-char *memset(char *a, char j, unsigned int n)
+char *_memset(char *a, char j, unsigned int n)
 {
 	char *s = a;
 
