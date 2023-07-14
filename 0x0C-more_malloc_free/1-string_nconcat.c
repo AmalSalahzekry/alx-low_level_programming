@@ -42,7 +42,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (n >= num2 && i < (num1 + num2))
 		a[i++] = s2[j++];
 
-	a[i] = NULL;
+	a[i] = '\0';
 
 	return (a);
 }
