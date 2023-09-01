@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 				}
 			}
 		}
-		prinf("%d\n", changes);
+		printf("%d\n", changes);
 	}
 	else
 	{
