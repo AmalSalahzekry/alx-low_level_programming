@@ -10,17 +10,18 @@
 int main(int argc, char *argv[])
 {
 	int mul;
+	int i;
+	int m;
 
-	if (argc == 3)
-	{
-		mul = atoi(argv[1]) * atoi(argv[2]);
-		printf("%ld\n", mul);
-	}
-	else
+	if (argc < 3 || argc > 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
+	i = atoi(argv[1]);
+	m = atoi(argv[2]);
+	mul = i * m;
+
+	printf("%d\n", mul);
 	return (0);
 }
-
