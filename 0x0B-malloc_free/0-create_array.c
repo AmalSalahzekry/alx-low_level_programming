@@ -18,7 +18,7 @@ char *create_array(unsigned int size, char c)
 	}
 	else
 	{
-		for (;size > 0; size--)
+		for (; size > 0; size--)
 		{
 			ptr[size - 1] = c;
 		}
