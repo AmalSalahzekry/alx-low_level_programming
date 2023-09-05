@@ -11,7 +11,7 @@ char *_strdup(char *str)
 {
 	char *ptr;
 	int size = 0;
-	int new_size;
+	int n_size;
 
 	if (str == NULL)
 	{
@@ -29,8 +29,8 @@ char *_strdup(char *str)
 	}
 	else
 	{
-		for (; new_size < size; new_size++)
-			ptr[new_size] = str[new_size];
+		for (; n_size < size; n_size++)
+			ptr[n_size] = str[n_size];
 	}
 	return (ptr);
 }
