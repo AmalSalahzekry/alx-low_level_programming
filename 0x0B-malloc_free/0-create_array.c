@@ -18,9 +18,9 @@ char *create_array(unsigned int size, char c)
 	}
 	else
 	{
-		for (size > 0; ptr[size] = c; size--)
+		for (;size > 0; size--)
 		{
-			break;
+			ptr[size - 1] = c;
 		}
 	}
 	return (ptr);
