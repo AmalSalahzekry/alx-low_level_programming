@@ -49,7 +49,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog_t ptrd;
 
 	if (!name || age < 0 || owner)
+	{
 		return (NULL);
+	}
 
 	ptrd = (dog_t *) malloc(sizeof(dog_t));
 
