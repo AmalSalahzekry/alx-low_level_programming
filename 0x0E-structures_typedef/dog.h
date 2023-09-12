@@ -18,6 +18,6 @@ typedef struct dog
 	char name;
 	int age;
 	char owner;
-} my_dog;
+};
 
 #endif
