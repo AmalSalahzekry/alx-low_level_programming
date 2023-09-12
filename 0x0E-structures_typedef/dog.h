@@ -13,7 +13,7 @@ void free_dog(dog_t *d);
  * @owner: the owner name
  */
 
-typedef struct dog
+struct dog
 {
 	char name;
 	int age;
