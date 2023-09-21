@@ -10,14 +10,18 @@ size_t print_list(const list_t *h)
 {
 	size_t cont = 0;
 
-	const list_t *ptr = NULL;
+	const list_t *str = NULL;
 
-	ptr = h;
+	str = h;
 
-	while (ptr != NULL)
+	if(h->str = NULL)
+	{
+		printf("[0] (nil)\n");
+	}
+	while (str != NULL)
 	{
 		cont++;
-		ptr = ptr->link;
+		str = ptr->link;
 	}
 	printf("%d", cont);
 	return (cont);
