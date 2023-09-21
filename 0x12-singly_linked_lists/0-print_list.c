@@ -17,6 +17,7 @@ size_t print_list(const list_t *h)
 	if (current == NULL)
 	{
 		printf("[0] (nil)\n");
+		return (cont);
 	}
 	while (current != NULL)
 	{
@@ -24,6 +25,5 @@ size_t print_list(const list_t *h)
 		cont++;
 		current = current->next;
 	}
-	printf("%ld", cont);
 	return (cont);
 }
