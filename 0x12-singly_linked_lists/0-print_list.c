@@ -21,7 +21,7 @@ size_t print_list(const list_t *h)
 	while (str != NULL)
 	{
 		cont++;
-		str = ptr->link;
+		str = str->link;
 	}
 	printf("%d", cont);
 	return (cont);
