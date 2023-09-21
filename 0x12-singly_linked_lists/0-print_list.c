@@ -19,6 +19,6 @@ size_t print_list(const list_t *h)
 		cont++;
 		ptr = ptr->link;
 	}
-	_putchar('%d', cont);
+	printf("%d", cont);
 	return (cont);
 }
