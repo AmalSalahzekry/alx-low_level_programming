@@ -1,4 +1,5 @@
 #include <lists.h>
+#include <string.h>
 
 /**
  * add_node - to add note on the start
