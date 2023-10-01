@@ -6,7 +6,7 @@
  * Return: void
  */
 
-void print_binary(unsigned long int n);
+void print_binary(unsigned long int n)
 {
 	int a;
 	int count = 0;
